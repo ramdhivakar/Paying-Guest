@@ -1036,7 +1036,7 @@ class New:
             #print(name_got, self.master.mail, note, self.master.room, 'hi', self.master.ent.get())
         """smtp_obj = smtplib.SMTP('smtp.gmail.com', 587)
         smtp_obj.starttls()
-        smtp_obj.login('ramdhivakar333@gmail.com', '@3kasthuriraj@3')
+        smtp_obj.login('ramdhivakar333@gmail.com', '******password')
         smtp_obj.sendmail('ramdhivakar333@gmail.com', 'ramdhivakar333@gmail.com',
                           'Subject:Subject.\n Hi ,Sincerely,ram Courier test mail')
         smtp_obj.quit()"""
@@ -1143,7 +1143,7 @@ class Payment:
         smtp_obj = smtplib.SMTP('smtp.gmail.com', 587)
         smtp_obj.ehlo()
         smtp_obj.starttls()
-        smtp_obj.login('ramdhivakar333@gmail.com', '@3kasthuriraj@3')
+        smtp_obj.login('ramdhivakar333@gmail.com', '******password')
         smtp_obj.sendmail('ramdhivakar333@gmail.com', 'ramdhivakar333@gmail.com', content)
         smtp_obj.quit()
         box.showinfo('Done', 'Mail sent Successfully')
